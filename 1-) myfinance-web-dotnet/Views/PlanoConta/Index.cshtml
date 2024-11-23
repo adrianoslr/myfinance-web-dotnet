@@ -1,0 +1,51 @@
+@{
+    ViewData["Title"] = "Plano de Contas";
+}
+
+<h1>Plano de Contas</h1>
+
+<br>
+
+<button type="button" class=" btn btn-block btn-primary" onclick=Novo()>Criar Item de Plano de Conta</button>
+
+<br><br>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Id</th>
+        <th>Descrição</th>
+        <th>Tipo</th>
+        <th>#</th>
+        <th>#</th>
+
+    </tr>
+
+    @{
+        foreach (var item in (List<PlanoContaModel>)ViewBag.ListaPlanoConta)
+            {
+                <tr>
+                    <th>@item.Id</th>
+                    <th>@item.Descricao</th>
+                    <th>@item.Tipo</th>
+                    <th><button type="button" class="btn btn-block btn-outline-warning" onclick="Atualizar(@item.Id.ToString())">Editar</button></th>
+                    <th><button type="button" class="btn btn-block btn-outline-danger" onclick="Excluir(@item.Id.ToString())">Excluir</button></th>
+                </tr>
+            }
+    }
+</table>
+
+<script>
+    function Novo()
+    {
+        window.location.href = "../PlanoConta/Cadastrar";
+    }
+    function Atualizar(id)
+    {
+        window.location.href = "../PlanoConta/Cadastrar/" + id;
+    }
+    function Excluir(id)
+    {
+        window.location.href = "../PlanoConta/Excluir/" + id;
+    }
+    
+</script>

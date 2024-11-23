@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6">
+  <diagram name="Página-1" id="ZKtLP1JUIbF3awQTWwQw">
+    <mxGraphModel dx="1195" dy="643" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-2" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry y="44" width="810" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUNdHTkYImT0x1kdtJFG-1" target="OUNdHTkYImT0x1kdtJFG-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUNdHTkYImT0x1kdtJFG-1" target="OUNdHTkYImT0x1kdtJFG-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-1" value="MyFynance Web&lt;div&gt;ASP NET MVC&amp;nbsp;&lt;/div&gt;&lt;div&gt;(.NET 6.0)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="84" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-4" value="MyFinanceWeb Diagrama Arquitetural" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="20" y="4" width="770" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-8" value="SQL&lt;div&gt;MyFynance&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillStyle=solid;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="74" width="70" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUNdHTkYImT0x1kdtJFG-10" target="OUNdHTkYImT0x1kdtJFG-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUNdHTkYImT0x1kdtJFG-10" target="OUNdHTkYImT0x1kdtJFG-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-10" value="&lt;span&gt;INFRAESTRUTURA&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fontStyle=0;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="230" y="84" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OUNdHTkYImT0x1kdtJFG-11" target="OUNdHTkYImT0x1kdtJFG-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-11" value="DAL" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="84" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-12" value="COMMON" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="194" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OUNdHTkYImT0x1kdtJFG-18" target="OUNdHTkYImT0x1kdtJFG-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-18" value="SERVIÇOS" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="40" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OUNdHTkYImT0x1kdtJFG-20" value="DOMINIO" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="230" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
